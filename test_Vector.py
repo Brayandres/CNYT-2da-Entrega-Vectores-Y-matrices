@@ -1,6 +1,5 @@
 import unittest
 from Vector import *
-#Vector([Cartesian((, )), Cartesian((, )), Cartesian((, ))])
 
 class Test_Vector(unittest.TestCase):
 
@@ -37,11 +36,3 @@ class Test_Vector(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-
-
-
-
-
-

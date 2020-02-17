@@ -67,9 +67,3 @@ class Vector(list, object):
 
     def distance(self, other):
         return math.sqrt(((self-other).inner_prod(self-other)).mod())
-
-#v = Vector([Cartesian((-3, -1)), Cartesian((0, -2)), Cartesian((0, 1)), Cartesian((2, 0))])
-#print(v.norm())
-#print(Cartesian((0, 1)).mod() )
-#print(Cartesian((0, 1)).mod()/(v.norm())**2)
-#print(v.conjugate())
